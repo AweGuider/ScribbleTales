@@ -39,10 +39,6 @@ public class HUD : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-    }
-
     void Update()
     {
         if (timer.IsTimerDone())
@@ -50,12 +46,6 @@ public class HUD : MonoBehaviour
             timer.SetTimerDone(false);
             popup.showTimeIsUp();
         }
-
-        //if (popup.IsDone())
-        //{
-
-        //    popup.SetDone(false);
-        //}
     }
 
     public void ShowOptions()

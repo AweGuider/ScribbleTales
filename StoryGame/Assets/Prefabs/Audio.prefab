@@ -46,7 +46,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -174,7 +174,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -310,6 +310,9 @@ MonoBehaviour:
   menuBackground: {fileID: 4402041151105010215}
   storyBackground: {fileID: 4402041151909524239}
   button: {fileID: 4402041152090396755}
+  menu: 0
+  selection: 0
+  story: 0
 --- !u!1 &4402041152063681072
 GameObject:
   m_ObjectHideFlags: 0

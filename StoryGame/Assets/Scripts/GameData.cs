@@ -27,7 +27,6 @@ public class GameData : MonoBehaviour
     private bool devPressed;
     public static bool devMode;
 
-
     void Start()
     {
         transition = transitionObj;

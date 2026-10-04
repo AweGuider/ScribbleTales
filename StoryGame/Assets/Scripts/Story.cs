@@ -122,15 +122,6 @@ public class Story : MonoBehaviour
         {
             yield return new WaitForSeconds(letterDelay);
             output.text += sentence[i];
-
-            //if (output.text.Equals(""))
-            //{
-            //    output.text += array[i];
-            //}
-            //else
-            //{
-            //    output.text += " " + array[i];
-            //}
         }
         animatingText = false;
 
@@ -154,27 +145,6 @@ public class Story : MonoBehaviour
     private List<string> ReadFileToList2(string path)
     {
         path = path.ToLowerInvariant();
-
-        Debug.Log("ReadFileToList2 method:");
-        Debug.Log(languageDict.Count);
-        Debug.Log(path);
-        Debug.Log("\n");
-        ///Useful tests
-        //Debug.Log(string.Format("Is the file with name ({0}) in there: {1}", path, GameData.romanianDict.ContainsKey(path)));
-        //Debug.Log(string.Format("Path: {0}, length: {1}", GameData.ConvertToHex(path), path.Length));
-
-        //TextAsset file = GameData.Contains(path);
-        //if (file == null)
-        //{
-        //    throw new System.Exception(string.Format
-        //    ("Path <b><color=#C20000>{0}</color></b> is missing.", path));
-        //}
-
-        //Debug.Log(string.Format("File: {0}, contains empty lines: {1}", file.name, file.text.Contains("\n")));
-        //if (!File.Exists(file.ToString())) throw new System.Exception(string.Format
-        //    ("Path <b><color=#C20000>{0}</color></b> is missing.", file));
-        //List<string> temp = file.text.Split("\n").ToList();
-
         List<string> temp = languageDict[path].text.Split("\n").ToList();
         if (temp != null)
         {

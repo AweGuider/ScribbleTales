@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4402041151105010215, guid: 43e01bdb9c4b3da439079501812fbf16, type: 3}
       propertyPath: m_PlayOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4402041152044285176, guid: 43e01bdb9c4b3da439079501812fbf16, type: 3}
       propertyPath: m_RootOrder
@@ -181,6 +181,10 @@ PrefabInstance:
     - target: {fileID: 4402041152044285182, guid: 43e01bdb9c4b3da439079501812fbf16, type: 3}
       propertyPath: m_Name
       value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402041152044285183, guid: 43e01bdb9c4b3da439079501812fbf16, type: 3}
+      propertyPath: menu
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e01bdb9c4b3da439079501812fbf16, type: 3}
@@ -1045,6 +1049,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2704198509523946892, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ae2f6b600ab15944abcf2b12957fb43, type: 3}
+    - target: {fileID: 2704198509523946892, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1073,6 +1081,14 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2704198510862427653, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dee831ef6f99c41499698c1423f855bc, type: 3}
+    - target: {fileID: 2704198510862427653, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 50715da180ea40342afb31881055566d, type: 3}
+    - target: {fileID: 2704198510862427653, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1099,6 +1115,14 @@ PrefabInstance:
     - target: {fileID: 2704198510862427653, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2704198510862427654, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 99cd8d4a80cdd9a41b0d0c1db5f8acec, type: 3}
+    - target: {fileID: 4637985600194847515, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4637985600606650054, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1224,6 +1248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4637985601194194932, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 192678157}
     - target: {fileID: 4637985601643441248, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -1232,6 +1260,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4637985602042207538, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 192678157}
+    - target: {fileID: 5145240638114697125, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e14eabdcc6d50724a8a87f1a104c5064, type: 3}
     - target: {fileID: 5145240638114697126, guid: 27a53f8b3c2db8b479d503274bb3e53e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3

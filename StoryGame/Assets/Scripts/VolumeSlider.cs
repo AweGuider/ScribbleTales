@@ -10,6 +10,7 @@ public class VolumeSlider : MonoBehaviour
     [SerializeField] private bool FX;
     [SerializeField] private bool background;
 
+    [SerializeField] private Audio audio;
 
     public void ChangeVolume(float value)
     {
@@ -27,6 +28,6 @@ public class VolumeSlider : MonoBehaviour
             _sliderText.text = string.Format("Background: {0}%", Mathf.Round(value * 100f));
 
         }
-
+        audio.UpdateSounds();
     }
 }

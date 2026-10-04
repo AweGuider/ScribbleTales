@@ -12,13 +12,16 @@ public class ClickableText : MonoBehaviour
 
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            //int linkIndex = TMP_TextUtilites
-        }
-    }
+            //int linkIndex = TMP_TextUtilites.FindIntersectingLink(text, Input.mousePosition, null);
+            //if (linkIndex > -1)
+            //{
+            //    var linkInfo = text.textInfo.lineInfo[linkIndex];
+            //    var linkId = linkInfo.GetLinkID();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            //    var itemData = FindObjectOfType<ItemDataController>().Get(linkId);
+
+            //    PopupPanel.Show(itemData);
+            //}
+        }
     }
 }
